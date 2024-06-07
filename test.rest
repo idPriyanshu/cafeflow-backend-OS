@@ -1,0 +1,74 @@
+get /manager/orders/sale HTTP/1.1
+host: 172.16.202.70:8000
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhYmMiLCJ1c2VyUm9sZSI6ImNoZWYiLCJpYXQiOjE3MTIwMzc5MzYsImV4cCI6MTcxMjEwMjczNn0.NCte259owPR0Cw7Y2UwQ7d5HX-5W3756-fj9LvF5u0c
+
+{
+    
+}
+
+###
+post /user/login HTTP/1.1
+host: 22.22.0.167:8000
+Content-Type: application/json
+
+{
+    "userId":"abc",
+    "password":"abc",   
+    "userRole":"manager"
+}
+
+###
+post /user/orders HTTP/1.1
+host:172.16.206.101:8000
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhYmMiLCJ1c2VyUm9sZSI6InVzZXIiLCJpYXQiOjE3MTIyOTc1OTksImV4cCI6MTcxMjM2MjM5OX0.WVUrG0Cq5yE2DVP1Sf9xIw28mg4K23fvGp-lKaGP_iI
+
+{
+   "date":"12-04-2024",
+   "itemName":"cola",
+   "quatity":2
+}
+
+###
+post /cooking_staff/registration HTTP/1.1
+host:172.16.205.166:8000
+Content-Type: application/json
+
+{
+    "userId":"chef2",
+    "password":"jw4tkJEcXdspL7nUDZVuBF",
+    "userRole":"chef",
+    "name":"chef",
+    "email":"manager@bb.com"
+}
+
+###
+get /manager/orders/sale HTTP/1.1
+host: 22.22.0.167:8000
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhYmMiLCJ1c2VyUm9sZSI6Im1hbmFnZXIiLCJpYXQiOjE3MTIzNDExOTYsImV4cCI6MTcxMjQwNTk5Nn0.8_gqvT6FbD5_nAGN4nts4jwM8FvORCKuWSjsNn4qaas
+
+{
+
+}
+
+###
+post /cooking_staff/registration HTTP/1.1
+host: 172.16.206.101:8000
+Content-Type: application/json
+
+{
+    "password":"123",
+    "userRole":"chef"
+}
+
+###
+post https://cafeflow-vercel.vercel.app/user/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "userId":"abc",
+    "password":"abc",
+    "userRole":"manager"
+}
