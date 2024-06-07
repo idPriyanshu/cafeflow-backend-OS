@@ -1,9 +1,11 @@
-
 # Cafeflow
 
 Cafeflow is a software system which allows customers to buy and return plastic bottles and order food online from a cafe in college. This was created for the cafes of Indian Institute of Information Technology Kottayam (IIITK). IIITK implemented a plastic token of ```INR 10``` for every purchase of a plastic item from the shops and cafe in campus. The amount will be refunded once the token and the empty plastic item is returned to the shop/cafe. This plastic token is easy to loose and made of plastic defeating the purpose of reducing plastic waste.
 
 Cafeflow was created to tackle this challenge. The users no longer have to pay extra for plastic items in college campus. A unique token number will be generated for each plastic item bought either offline or online. The token will be linked to the unique userID of the students. The data of plastic items can be shared with the authorities so students can be held accountable for throwing waste around the campus.
+
+*Note that this is only the backend for the project*
+
 ## Tech Used
 
 
