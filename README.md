@@ -4,7 +4,9 @@ Cafeflow is a software system which allows customers to buy and return plastic b
 
 Cafeflow was created to tackle this challenge. The users no longer have to pay extra for plastic items in college campus. A unique token number will be generated for each plastic item bought either offline or online. The token will be linked to the unique userID of the students. The data of plastic items can be shared with the authorities so students can be held accountable for throwing waste around the campus.
 
-*Note that this is only the backend for the project*
+*Note that this is only the backend for the project.*
+*The frontend by author [@idPriyanshu](https://github.com/idPriyanshu) in flutter can be accessed [here](https://github.com/ashblend17/cafeflow.git).*
+
 
 ## Tech Used
 
