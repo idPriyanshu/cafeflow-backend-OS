@@ -18,6 +18,7 @@ Cafeflow was created to tackle this challenge. The users no longer have to pay e
 
 - [@ashblend17](https://www.github.com/ashblend17)
 - [@sasya88](https://www.github.com/sasya88)
+- [@idPriyanshu](https://www.github.com/idPriyanshu)
 
 
 ## Features
